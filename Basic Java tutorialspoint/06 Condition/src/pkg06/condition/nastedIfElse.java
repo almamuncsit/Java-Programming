@@ -9,13 +9,15 @@ package pkg06.condition;
  *
  * @author mamun
  */
-public class ifCondition {
-
+public class nastedIfElse {
     public static void main(String[] args) {
         int a = 5;
-
-        if (a == 5) {
-            System.out.println("Hello How are you.");
+        if (a > 5) {
+            System.out.println("A is larger 5");
+        } else if (a == 5){
+            System.out.println("A is 5");
+        } else if(a < 5) {
+            System.out.println("A is Smaller then 5");
         }
     }
 }

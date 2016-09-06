@@ -9,13 +9,14 @@ package pkg06.condition;
  *
  * @author mamun
  */
-public class ifCondition {
-
+public class ifElseCondition {
     public static void main(String[] args) {
+        System.out.println("Nice ");
         int a = 5;
-
         if (a == 5) {
-            System.out.println("Hello How are you.");
+            System.out.println("A is 5");
+        } else {
+            System.out.println("A is not 5");
         }
     }
 }
