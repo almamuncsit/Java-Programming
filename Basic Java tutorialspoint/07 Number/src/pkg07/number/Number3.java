@@ -24,5 +24,9 @@ public class Number3 {
         System.out.printf("pow(%.3f, %.3f) is %.3f%n", x, y, Math.pow(x, y));
         
         System.out.printf("sqrt(%.3f) is %.3f%n", x, Math.sqrt(x));
+        
+        System.out.println( Math.toDegrees(45.15) );
+        
+        System.out.println("Random Number : " + Math.random() );
     }
 }
